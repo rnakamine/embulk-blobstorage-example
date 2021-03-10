@@ -1,0 +1,8 @@
+in:
+  type: azure_blob_storage
+  account_name: {{ env.ACCOUNT_NAME }}
+  account_key: {{ env.ACCOUNT_KEY }}
+  container: {{ env.CONTAINER }}
+  path_prefix: sample.csv
+
+out: {type: stdout}
