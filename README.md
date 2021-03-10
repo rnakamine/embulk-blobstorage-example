@@ -4,7 +4,7 @@ This repository is for verification when using the input-azure_blob_storage plug
 
 ## Usage
 
-### build
+### Build
 ```
 docker build . -t embulk-blob
 ```
