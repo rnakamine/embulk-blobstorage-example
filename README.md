@@ -11,5 +11,5 @@ docker build . -t embulk-blob
 
 ### Run
 ```
-docker run --rm -t embulk-blob
+docker run --rm -t embulk-blob -e ACCOUNT_NAME=<your account name> -e ACCOUNT_KEY=<your account key>
 ```
