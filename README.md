@@ -1,4 +1,4 @@
-# embulk-blobstorage-sample
+# embulk-blobstorage-example
 
 [WIP] This repository is for verification when using the input-azure_blob_storage plugin with embulk.
 
