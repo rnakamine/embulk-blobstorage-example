@@ -1,10 +1,10 @@
 resource "azurerm_resource_group" "embulk" {
-  name     = "embulk-sample"
+  name     = "embulk-example"
   location = "japaneast"
 }
 
 resource "azurerm_storage_account" "embulk" {
-  name                     = "embulksample"
+  name                     = "embulkexample"
   resource_group_name      = azurerm_resource_group.embulk.name
   location                 = azurerm_resource_group.embulk.location
   account_tier             = "standard"
@@ -12,7 +12,7 @@ resource "azurerm_storage_account" "embulk" {
 }
 
 resource "azurerm_storage_container" "embulk" {
-  name                  = "embulk-sample"
+  name                  = "embulk-example"
   storage_account_name  = azurerm_storage_account.embulk.name
   container_access_type = "private"
 }
